@@ -1,0 +1,37 @@
+h3{
+    font-family: Arial, Helvetica, Tahoma, Geneva, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.center {
+    font-size: 16px;
+}
+
+#center{
+    text-align: center;
+}
+
+#add{
+    color: #01579b;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, Tahoma, Geneva, sans-serif;
+}
+
+#add a:hover {
+    text-decoration: underline;
+}
+
+#img{
+    margin-left: 130px;;
+}
+
+.right {
+    float:right !important;
+    margin-right: 50px;
+}
