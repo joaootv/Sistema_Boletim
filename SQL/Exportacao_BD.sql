@@ -80,8 +80,7 @@ ALTER TABLE `notas`
   ADD PRIMARY KEY (`id`),
   ADD KEY `nota_aluno` (`aluno`),
   ADD KEY `nota_curso` (`curso`),
-  ADD KEY `nota_disciplina` (`disciplina`),
-  ADD KEY `nota_professor` (`professor`);
+  ADD KEY `nota_disciplina` (`disciplina`);
 
 ALTER TABLE `professor`
   ADD PRIMARY KEY (`id`);
