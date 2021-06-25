@@ -22,4 +22,3 @@
     }
     else echo "Campo Nome ou Vagas são vazios...";
     header("location: ../listarProfessor.php");
-?>

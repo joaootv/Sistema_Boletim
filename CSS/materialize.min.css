@@ -802,16 +802,16 @@
  color:#a7ffeb !important
 }
 .teal.accent-2 {
- background-color:#64ffda !important
+ background-color:#0d47a1 !important
 }
 .teal-text.text-accent-2 {
- color:#64ffda !important
+ color:#0d47a1 !important
 }
 .teal.accent-3 {
- background-color:#1de9b6 !important
+ background-color:#0d47a1 !important
 }
 .teal-text.text-accent-3 {
- color:#1de9b6 !important
+ color:#0d47a1 !important
 }
 .teal.accent-4 {
  background-color:#00bfa5 !important
@@ -4233,7 +4233,7 @@ small {
 .btn:hover,
 .btn-large:hover,
 .btn-small:hover {
- background-color:#2bbbad
+ background-color:#0d47a1
 }
 .btn-floating {
  display:inline-block;
@@ -6272,7 +6272,7 @@ input[type=range]::-ms-thumb {
 .sidenav li>a.btn-large:hover,
 .sidenav li>a.btn-small:hover,
 .sidenav li>a.btn-large:hover {
- background-color:#2bbbad
+ background-color:#0d47a1
 }
 .sidenav li>a.btn-floating:hover {
  background-color:#01579b

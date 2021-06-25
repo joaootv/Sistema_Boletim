@@ -34,7 +34,6 @@ CREATE TABLE `disciplina` (
 CREATE TABLE `notas` (
   `id` int(11) NOT NULL,
   `curso` int(11) DEFAULT NULL,
-  `professor` int(11) DEFAULT NULL,
   `disciplina` int(11) DEFAULT NULL,
   `aluno` int(11) DEFAULT NULL,
   `nota1` float DEFAULT NULL,
@@ -118,5 +117,4 @@ ALTER TABLE `disciplina`
 ALTER TABLE `notas`
   ADD CONSTRAINT `nota_aluno` FOREIGN KEY (`aluno`) REFERENCES `aluno` (`RA`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `nota_curso` FOREIGN KEY (`curso`) REFERENCES `curso` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `nota_disciplina` FOREIGN KEY (`disciplina`) REFERENCES `disciplina` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `nota_professor` FOREIGN KEY (`professor`) REFERENCES `professor` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `nota_disciplina` FOREIGN KEY (`disciplina`) REFERENCES `disciplina` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;

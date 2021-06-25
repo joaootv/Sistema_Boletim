@@ -18,5 +18,4 @@
     
         Conexao::desconectar();
     }
-    header("location: ../listarProfessor.php"); 
-?>
+    header("location: ../listarProfessor.php");

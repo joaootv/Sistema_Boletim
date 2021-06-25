@@ -34,5 +34,4 @@
     
         Conexao::desconectar();
     }
-    header("location: ../listarAluno.php"); 
-?>
+    header("location: ../listarAluno.php");

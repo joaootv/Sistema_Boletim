@@ -15,5 +15,4 @@
 
         Conexao::desconectar();
     }
-    header("location: ../listarDisciplina.php"); 
-?>
+    header("location: ../listarDisciplina.php");

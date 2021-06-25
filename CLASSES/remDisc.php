@@ -13,4 +13,3 @@
     }
     else echo "Campo ID vazio...";
     header("location: ../listarDisciplina.php");
-?>

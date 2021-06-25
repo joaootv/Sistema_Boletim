@@ -28,4 +28,3 @@
     }
     else echo "Campo ID vazio...";
     header("location: ../listarAluno.php");
-?>
